@@ -9,6 +9,8 @@ Vendor:		D.Wijsman <mardan@tweegy.demon.nl>
 Source0:	http://tweegy.demon.nl/download/%{name}-%{version}.tar.gz
 # Source0-md5:	c6cb0e72a99089e5432be3891f53a419
 URL:		http://tweegy.demon.nl/projects/netstat-nat/
+BuildRequires:	autoconf
+BuildRequires:	automake
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -40,8 +42,9 @@ kilkoma parametrami, ale nie s± one obowi±zkowe.
 
 %install
 rm -rf $RPM_BUILD_ROOT
-install -D %{name} $RPM_BUILD_ROOT%{_bindir}/%{name}
-install -D -m 444 netstat-nat.1 $RPM_BUILD_ROOT%{_mandir}/man1/netstat-nat.1
+
+%{__make} install \
+	DESTDIR=$RPM_BUILD_ROOT
 
 %clean
 rm -rf $RPM_BUILD_ROOT
