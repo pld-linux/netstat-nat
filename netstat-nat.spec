@@ -1,13 +1,13 @@
 Summary:	netstat-nat displays NAT connections
 Summary(pl):	Program wy¶wietlaj±cy po³±czenia NAT
 Name:		netstat-nat
-Version:	1.4.1
+Version:	1.4.2
 Release:	1
 License:	GPL
 Group:		Networking/Utilities
 Vendor:		D.Wijsman <mardan@tweegy.demon.nl>
 Source0:	http://tweegy.demon.nl/download/%{name}-%{version}.tar.gz
-# Source0-md5:	99fdd5300cc440faf5cb5c1d169439dd
+# Source0-md5:	3a383af0c56fbbe61dbe252e65b6d4d7
 URL:		http://tweegy.demon.nl/projects/netstat-nat/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
