@@ -7,6 +7,7 @@ License:	GPL
 Group:		Networking/Utilities
 Vendor:		D.Wijsman <mardan@tweegy.demon.nl>
 Source0:	http://tweegy.demon.nl/download/%{name}-%{version}.tar.gz
+# Source0-md5:	99fdd5300cc440faf5cb5c1d169439dd
 URL:		http://tweegy.demon.nl/projects/netstat-nat/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
