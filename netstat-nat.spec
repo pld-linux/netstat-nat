@@ -1,13 +1,13 @@
 Summary:	netstat-nat displays NAT connections
 Summary(pl):	Program wy¶wietlaj±cy po³±czenia NAT
 Name:		netstat-nat
-Version:	1.4.4
-Release:	1
+Version:	1.4.5
+Release:	0.1
 License:	GPL
 Group:		Networking/Utilities
 Vendor:		D.Wijsman <mardan@tweegy.demon.nl>
 Source0:	http://tweegy.demon.nl/download/%{name}-%{version}.tar.gz
-# Source0-md5:	c6cb0e72a99089e5432be3891f53a419
+# Source0-md5:	fe297cdaab70d6adef36c08eac2eaea4
 URL:		http://tweegy.demon.nl/projects/netstat-nat/
 BuildRequires:	autoconf
 BuildRequires:	automake
@@ -23,9 +23,9 @@ arguments (but not needed).
 
 %description -l pl
 Netstat-nat to ma³y program napisany w C. Wy¶wietla po³±czenia NAT,
-obs³ugiwane przez netfilter/iptables obecne w j±drach Linuksa 2.4.x.
-Program czyta informacje z /proc/net/ip_conntrack, gdzie netfilter
-umieszcza dane o ¶ledzonych po³±czeniach
+obs³ugiwane przez netfilter/iptables obecne w j±drach Linuksa >=
+2.4.x. Program czyta informacje z /proc/net/ip_conntrack, gdzie
+netfilter umieszcza dane o ¶ledzonych po³±czeniach
 (http://netfilter.samba.org/). Netstat-nat mo¿e byæ wywo³ywany z
 kilkoma parametrami, ale nie s± one obowi±zkowe.
 
