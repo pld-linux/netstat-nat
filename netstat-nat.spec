@@ -1,5 +1,5 @@
 Summary:	netstat-nat displays NAT connections
-Summary(pl):	Program wy¶wietlaj±cy po³±czenia NAT
+Summary(pl.UTF-8):   Program wyÅ›wietlajÄ…cy poÅ‚Ä…czenia NAT
 Name:		netstat-nat
 Version:	1.4.7
 Release:	1
@@ -21,13 +21,13 @@ connections, managed by netfilter/iptables which comes with the >=
 netfilter. (http://netfilter.samba.org/) Netstat-nat takes several
 arguments (but not needed).
 
-%description -l pl
-Netstat-nat to ma³y program napisany w C. Wy¶wietla po³±czenia NAT,
-obs³ugiwane przez netfilter/iptables obecne w j±drach Linuksa >=
+%description -l pl.UTF-8
+Netstat-nat to maÅ‚y program napisany w C. WyÅ›wietla poÅ‚Ä…czenia NAT,
+obsÅ‚ugiwane przez netfilter/iptables obecne w jÄ…drach Linuksa >=
 2.4.x. Program czyta informacje z /proc/net/ip_conntrack, gdzie
-netfilter umieszcza dane o ¶ledzonych po³±czeniach
-(http://netfilter.samba.org/). Netstat-nat mo¿e byæ wywo³ywany z
-kilkoma parametrami, ale nie s± one obowi±zkowe.
+netfilter umieszcza dane o Å›ledzonych poÅ‚Ä…czeniach
+(http://netfilter.samba.org/). Netstat-nat moÅ¼e byÄ‡ wywoÅ‚ywany z
+kilkoma parametrami, ale nie sÄ… one obowiÄ…zkowe.
 
 %prep
 %setup -q
