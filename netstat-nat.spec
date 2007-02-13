@@ -1,5 +1,5 @@
 Summary:	netstat-nat displays NAT connections
-Summary(pl.UTF-8):   Program wyświetlający połączenia NAT
+Summary(pl.UTF-8):	Program wyświetlający połączenia NAT
 Name:		netstat-nat
 Version:	1.4.7
 Release:	1
